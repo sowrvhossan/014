@@ -1,0 +1,83 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#title{
+    color: #9d0208;
+    padding: 0%;
+    margin: 0%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+}
+#page_title{
+    color: #9d0208;
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+}
+label{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    color: #9d0208;
+    padding: 0%;
+    margin: 0%;
+    font-size: 20px;
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+
+}
+#tex_box{
+    border: #9d0208 2px solid;
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+    color: #9d0208;
+    outline: none;
+    font-size: 20px;
+}
+#tex_box:focus{
+    border: #9d0208 2px solid;
+    background-color:#ffff;
+    outline: none;
+    color: #9d0208;
+}
+#taxt{
+    color: #9d0208;
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+    font-size: 20px;
+
+}
+#div_frm{
+    display: grid;
+    justify-content: center;
+    
+}
+.div_frme{
+    display: grid;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+}
+#da_te{
+    border: #9d0208 2px solid;
+    font-size: 20px;
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+    color: #9d0208;
+}
+#da_te:focus,
+#da_te:valid{
+    border: #9d0208, 2px, solid;
+    background-color: #ffff;
+    outline: none;
+    color: #9d0208;
+}
+.boxx{
+    margin: 5px 20px;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+}
+#box_3{
+    
+    align-items: center;
+}
